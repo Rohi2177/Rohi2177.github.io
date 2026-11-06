@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rohith Halappa Chavan's cybersecurity portfolio: security research, a password manager dissertation, and training.">
+  <meta name="theme-color" content="#07111f">
+  <title>Rohith Halappa Chavan | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="brand" href="#top" aria-label="Rohith Halappa Chavan, home"><span class="brand-mark">R<span>.</span></span><span class="brand-name">Rohith Halappa Chavan <small>CYBERSECURITY &amp; AI</small></span></a>
+      <nav class="navigation" aria-label="Main navigation">
+        <a href="#work">Project</a><a href="#background">Background</a><a href="#documents">Documents</a>
+      </nav>
+      <a class="header-contact" href="mailto:rohithhchavan8722@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> EARLY-CAREER CYBERSECURITY &nbsp; / &nbsp; SOC &amp; GRC</p>
+        <h1 id="hero-title">Rohith Halappa <em>Chavan.</em></h1>
+        <p class="hero-intro">I explore security threats, controls and evidence. My master's dissertation examines how a password manager can protect credentials after a vault is unlocked.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#work">View my project <span aria-hidden="true">↗</span></a><a class="text-link" href="#documents">Documents &amp; credentials <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-meta"><span><strong>Current location</strong> Sheffield, UK</span><span><strong>From January 2027</strong> India · Remote preferred</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Illustration of the password manager project: an interface makes a request, a vault broker checks approval, and access is limited to an authorised action.">
+        <div class="visual-top"><span>PROJECT OVERVIEW</span><span>01 / 01</span></div>
+        <div class="visual-title">A closer look at<br><em>credential protection.</em></div>
+        <div class="diagram">
+          <div class="diagram-box interface"><span class="diagram-icon" aria-hidden="true">▦</span><span><small>01 / REQUEST</small>Interface</span></div>
+          <div class="diagram-line"><span></span><b>SCOPED REQUEST</b></div>
+          <div class="diagram-box broker"><span class="diagram-icon" aria-hidden="true">◇</span><span><small>02 / PROTECT</small>Vault broker</span><span class="broker-lock" aria-hidden="true">✳</span></div>
+          <div class="diagram-line"><span></span><b>APPROVED ACTION</b></div>
+          <div class="diagram-box record"><span class="diagram-icon" aria-hidden="true">↗</span><span><small>03 / ACCESS</small>Single record</span></div>
+        </div>
+        <div class="visual-foot"><span>MASTER'S DISSERTATION</span><span>2026 <b>●</b></span></div>
+      </div>
+      <div class="hero-index"><span>PORTFOLIO / 2026</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="intro-strip" aria-label="Areas of interest"><div class="wrap intro-strip-inner"><span>INTERESTED IN</span><p>Security operations <b>✳</b> Threat investigation <b>✳</b> Security risk</p></div></section>
+
+    <section class="section wrap work" id="work" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="section-kicker"><span>01</span> SELECTED WORK</p><h2 id="work-title">Password manager<br><em>security project.</em></h2></div><p>My master's dissertation: the problem, the design and the evidence, including its limitations.</p></div>
+      <article class="project-card">
+        <div class="project-main">
+          <div class="project-header"><span class="tag">MASTER'S DISSERTATION</span><span class="project-year">2026 <span aria-hidden="true">↗</span></span></div>
+          <p class="project-number">PROJECT / 01</p>
+          <h3>Implementing a<br>Password Manager</h3>
+          <p class="project-subtitle">A vault-broker design for limiting credential exposure after unlock.</p>
+          <div class="project-divider"></div>
+          <div class="project-grid">
+            <div><h4>THE QUESTION</h4><p>What happens to stored credentials if an application's interface becomes untrusted after a vault has already been unlocked?</p></div>
+            <div><h4>THE APPROACH</h4><p>The academic project explored separating vault operations from the visible interface and limiting sensitive requests to approved actions.</p></div>
+          </div>
+          <div class="project-evidence"><h4>RECORDED EVALUATION</h4><p>The submitted dissertation reported 305 passing automated tests and seven skipped. Five security properties were verified in a simplified Tamarin model; these findings do not prove that the whole application is secure.</p></div>
+        </div>
+        <aside class="project-side" aria-label="Project highlights">
+          <p class="side-label">THE SECURITY DETAILS</p>
+          <div class="detail-row"><span>01</span><div><strong>Separation</strong><p>A separate broker holds the vault key and handles sensitive operations.</p></div></div>
+          <div class="detail-row"><span>02</span><div><strong>Scoped approval</strong><p>Short-lived, single-use permissions apply to one action on one record.</p></div></div>
+          <div class="detail-row"><span>03</span><div><strong>Protection</strong><p>Argon2id and AES-256-GCM form part of the documented vault protection.</p></div></div>
+          <details class="limitations"><summary>Read the limitations <span aria-hidden="true">+</span></summary><p>This is an academic prototype. Its model has defined boundaries, and a compromised device can still expose information after it is copied or revealed.</p></details>
+        </aside>
+      </article>
+      <div class="work-note"><span class="note-symbol">↳</span><p><strong>Why this project?</strong> It connects the details of a technical design with a wider question about threats, controls and their limitations.</p></div>
+    </section>
+
+    <section class="about-band" id="about" aria-labelledby="about-title"><div class="wrap about-grid">
+      <div><p class="section-kicker"><span>02</span> ABOUT ME</p><h2 id="about-title">Curious by nature.<br><em>Careful by design.</em></h2><p class="about-lead">I enjoy looking at how systems work, where their risks sit, and how to communicate findings in a useful way.</p><a class="text-link" href="mailto:rohithhchavan8722@gmail.com">Let's connect <span aria-hidden="true">↗</span></a></div>
+      <div class="about-right">
+        <p>My studies brought together cybersecurity and artificial intelligence, with a particular interest in credential protection. I learn quickly and enjoy applying new knowledge to practical problems. I'm looking for early-career opportunities in security operations, investigation or risk.</p>
+        <div class="interest-list"><span>THREAT MODELLING</span><span>SECURITY RESEARCH</span><span>RISK &amp; CONTROLS</span><span>DOCUMENTATION</span></div>
+        <div class="about-bottom"><span>THE WAY I WORK</span><p>Ask the question. Examine the evidence. Be clear about the limits.</p></div>
+      </div>
+    </div></section>
+
+    <section class="section wrap background" id="background" aria-labelledby="background-title">
+      <div class="section-heading"><div><p class="section-kicker"><span>03</span> BACKGROUND</p><h2 id="background-title">Education &amp;<br><em>experience.</em></h2></div><p>Education, training and experience that have shaped my interest in security.</p></div>
+      <div class="timeline">
+        <article class="timeline-row"><p class="timeline-date">2025 — 2026</p><div><h3>MSc Cybersecurity and Artificial Intelligence</h3><p>University of Sheffield · Coursework and dissertation completed; final results awaited.</p></div><span class="timeline-type">EDUCATION</span></article>
+        <article class="timeline-row"><p class="timeline-date">FEBRUARY 2024</p><div><h3>Google Cybersecurity Professional Certificate</h3><p>Google via Coursera · Eight-course programme covering security risks, networks, detection and response, Linux, SQL and Python. <a href="https://coursera.org/verify/professional-cert/7DFZJBVB79QC" target="_blank" rel="noopener noreferrer">Verify certificate ↗</a></p></div><span class="timeline-type">TRAINING</span></article>
+        <article class="timeline-row"><p class="timeline-date">OCT — DEC 2023</p><div><h3>Full Stack Web Development Intern</h3><p>Varcons Technologies · Contributed to language-learning web pages and database work.</p></div><span class="timeline-type">EXPERIENCE</span></article>
+        <article class="timeline-row"><p class="timeline-date">2021 — 2025</p><div><h3>B.E. in Computer Science</h3><p>Atria Institute of Technology · Bengaluru, India.</p></div><span class="timeline-type">EDUCATION</span></article>
+      </div>
+    </section>
+
+    <section class="documents-band" id="documents" aria-labelledby="documents-title"><div class="wrap">
+      <div class="section-heading"><div><p class="section-kicker"><span>04</span> DOCUMENTS</p><h2 id="documents-title">Documents &amp;<br><em>credentials.</em></h2></div><p>Browse certificates, internship records and project reports by topic. Open a PDF or download a copy.</p></div>
+      <div class="document-grid" id="document-library">
+        <article class="document-card credential-card"><div class="document-icon" aria-hidden="true">↗</div><p class="doc-index">VERIFIED CREDENTIAL</p><h3>Google Cybersecurity Professional Certificate</h3><p>Google via Coursera · Issued February 2024.</p><a class="doc-link" href="https://coursera.org/verify/professional-cert/7DFZJBVB79QC" target="_blank" rel="noopener noreferrer">Verify on Coursera ↗</a></article>
+        <article class="document-card document-request" id="document-request"><div class="document-icon" aria-hidden="true">↗</div><p class="doc-index">GET IN TOUCH</p><h3>Questions about my work?</h3><p>Contact me for more information about my qualifications or projects.</p><a class="doc-link" href="mailto:rohithhchavan8722@gmail.com?subject=Portfolio%20document%20request">Send an enquiry ↗</a></article>
+      </div>
+    </div></section>
+
+    <section class="contact-section wrap" id="contact" aria-labelledby="contact-title"><div><p class="section-kicker"><span>05</span> CONTACT</p><h2 id="contact-title">Let's start a<br><em>conversation.</em></h2><p>Have a role, project or question in mind? I'd be glad to hear from you.</p><a class="button button-dark contact-button" href="mailto:rohithhchavan8722@gmail.com">Send me an email <span aria-hidden="true">↗</span></a></div><div class="contact-aside"><span>EMAIL</span><a href="mailto:rohithhchavan8722@gmail.com">rohithhchavan8722@gmail.com ↗</a><span>LOCATION</span><p>Sheffield, UK<br>Relocating to India in January 2027</p></div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><a href="#top" class="footer-brand">R<span>.</span></a><p>© <span id="year">2026</span> Rohith Halappa Chavan</p><a href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>
