@@ -1,0 +1,140 @@
+[
+  {
+    "file": "google-cybersecurity.pdf",
+    "title": "Google Cybersecurity Professional Certificate",
+    "category": "Cybersecurity",
+    "note": "Google via Coursera · Professional certificate."
+  },
+  {
+    "file": "python-fundamentals.pdf",
+    "title": "Python Fundamentals",
+    "category": "Programming, data and AI",
+    "note": "Course certificate."
+  },
+  {
+    "file": "introduction-to-ai.pdf",
+    "title": "Introduction to Artificial Intelligence",
+    "category": "Programming, data and AI",
+    "note": "Course certificate."
+  },
+  {
+    "file": "r-programming-fundamentals.pdf",
+    "title": "R Programming Fundamentals",
+    "category": "Programming, data and AI",
+    "note": "Course certificate."
+  },
+  {
+    "file": "programming-using-java.pdf",
+    "title": "Programming Using Java",
+    "category": "Programming, data and AI",
+    "note": "Course certificate."
+  },
+  {
+    "file": "java-foundation.pdf",
+    "title": "Java Foundation Certification",
+    "category": "Programming, data and AI",
+    "note": "Course certificate."
+  },
+  {
+    "file": "scaler-data-science-ml-ai-masterclass.pdf",
+    "title": "Data Science, Machine Learning and AI Masterclass",
+    "category": "Programming, data and AI",
+    "note": "Scaler · Participation certificate."
+  },
+  {
+    "file": "windows-powershell.pdf",
+    "title": "Windows PowerShell",
+    "category": "Systems and platforms",
+    "note": "Course certificate."
+  },
+  {
+    "file": "internet-of-things-foundation.pdf",
+    "title": "Internet of Things Foundation Certification",
+    "category": "Systems and platforms",
+    "note": "Course certificate."
+  },
+  {
+    "file": "sunbird-datastack.pdf",
+    "title": "Sunbird ED Datastack Foundation",
+    "category": "Systems and platforms",
+    "note": "Course certificate."
+  },
+  {
+    "file": "sunbird-front-end-apps.pdf",
+    "title": "Sunbird ED Front End Apps Foundation",
+    "category": "Systems and platforms",
+    "note": "Course certificate."
+  },
+  {
+    "file": "sunbird-sysops.pdf",
+    "title": "Sunbird ED SysOps Foundation",
+    "category": "Systems and platforms",
+    "note": "Course certificate."
+  },
+  {
+    "file": "sunbird-microservices.pdf",
+    "title": "Sunbird ED Microservices Foundation",
+    "category": "Systems and platforms",
+    "note": "Course certificate."
+  },
+  {
+    "file": "varcons-internship-certificate.pdf",
+    "title": "Full Stack Web Development Internship",
+    "category": "Internships and training",
+    "note": "Varcons Technologies · Internship certificate."
+  },
+  {
+    "file": "ai-devops-skill-competency.pdf",
+    "title": "AI DevOps Engineer",
+    "category": "Internships and training",
+    "note": "IT-ITeS Sector Skill Council · Skill competency certificate."
+  },
+  {
+    "file": "rooman-internship-report.pdf",
+    "title": "Rooman Technologies",
+    "category": "Internships and training",
+    "note": "Internship report. Edited copy: certificate-page signatory details removed."
+  },
+  {
+    "file": "kaggle-python-report.pdf",
+    "title": "Kaggle (Python)",
+    "category": "Internships and training",
+    "note": "Training report. Edited copy: certificate-page signatory details removed."
+  },
+  {
+    "file": "robotic-process-automation-report.pdf",
+    "title": "Robotic Process Automation",
+    "category": "Internships and training",
+    "note": "Training report. Edited copy: certificate-page signatory details removed."
+  },
+  {
+    "file": "language-learning-platform-report.pdf",
+    "title": "Language Learning Platform",
+    "category": "Project reports",
+    "note": "Varcons internship project report. Edited copy: certificate-page signatory details removed."
+  },
+  {
+    "file": "travel-buddy-finder-report.pdf",
+    "title": "Travel Buddy Finder",
+    "category": "Project reports",
+    "note": "Academic project report. Edited copy: certificate-page signatory details removed."
+  },
+  {
+    "file": "digital-image-forgery-team-report.pdf",
+    "title": "Digital Image Forgery Detection",
+    "category": "Project reports",
+    "note": "Team report; some sections contain unrelated material. Edited copy: certificate-page signatory details removed."
+  },
+  {
+    "file": "practical-gis.pdf",
+    "title": "Practical GIS: Fundamentals of Open Source GIS",
+    "category": "Additional learning",
+    "note": "Course certificate."
+  },
+  {
+    "file": "energy-literacy-training.pdf",
+    "title": "Energy Literacy Training",
+    "category": "Additional learning",
+    "note": "Training certificate."
+  }
+]
