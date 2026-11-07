@@ -15,7 +15,8 @@
       items.forEach((item, index) => {
         if (!item || typeof item.file !== 'string' || typeof item.title !== 'string') return;
         const filename = item.file.replace(/^documents\//, '');
-        if (!/^[\w. -]+\.pdf$/i.test(filename) || filename.includes('..')) return;
+        if (!/^[\w. -]+\.(pdf|zip)$/i.test(filename) || filename.includes('..')) return;
+        const isPdf = /\.pdf$/i.test(filename);
         const card = document.createElement('article');
         card.className = 'document-card';
         const icon = document.createElement('div');
@@ -43,8 +44,9 @@
         download.href = view.href;
         download.download = filename;
         download.textContent = 'Download ↓';
-        download.setAttribute('aria-label', `Download ${item.title} (PDF)`);
-        actions.append(view, download);
+        download.setAttribute('aria-label', `Download ${item.title} (${isPdf ? 'PDF' : 'ZIP'})`);
+        if (isPdf) actions.append(view);
+        actions.append(download);
         card.append(icon, tag, title, note, actions);
         const groupName = typeof item.category === 'string' && item.category.trim() ? item.category.trim() : 'Other documents';
         if (!categories.has(groupName)) {

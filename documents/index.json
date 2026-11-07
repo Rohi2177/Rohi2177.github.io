@@ -1,5 +1,17 @@
 [
   {
+    "file": "password-manager-dissertation.pdf",
+    "title": "Password Manager Dissertation",
+    "category": "Cybersecurity project",
+    "note": "University of Sheffield · Dissertation on a vault-broker design for limiting credential exposure after unlock."
+  },
+  {
+    "file": "password-manager-submission.zip",
+    "title": "Password Manager Project Submission",
+    "category": "Cybersecurity project",
+    "note": "Source code, tests, documentation and evaluation evidence for the academic prototype. ZIP archive."
+  },
+  {
     "file": "rohith-halappa-chavan-cv.pdf",
     "title": "Cybersecurity SOC and GRC CV",
     "category": "Curriculum vitae",
